@@ -2,35 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>JS-VKapi</title>
+    <title>JS-VK_Api</title>
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
-<body class="application">
+<body>
+<div class="application">
 
-<div class="inputData">
-    <input id="access-token" type="text" value="">
-    <button id="loadFriends">Load Friends</button>
-    <button id="loadGroups">Load Groups</button>
-    <button id="setToken">Set Token</button><br>
-    <a id="linkToken" href="" target="_blank">get access-token</a>
-</div>
+    <div class="working-data">
+        <label for="access-token"><a id="linkToken" href="" target="_blank">get access-token</a></label>
+        <input id="access-token" type="text" value="Copy the token into field:">
+        <button id="setToken">Set Token</button>
+        <button id="loadFriends">Load Friends</button>
+        <button id="loadGroups">Load Groups</button>
+    </div>
 
-<div class="outputData">
-    <ul id="firstPage"></ul>
-    <div class="detail" style="display: none">
-        <img src="">
-        <h3></h3>
-        <textarea></textarea>
-        <input id="get-data" type="datetime-local">
-        <input id="phone" type="text" value="">
-        <input id="name" type="text" value="">
-        <input id="address" type="text" value="">
-        <button id="send-message">Send Message</button>
+    <div class="output-data">
+        <ul id="first-page"></ul>
 
+        <div class="detail" style="display: none">
+            <img src="">
+            <h3></h3>
+            <label>Enter text<textarea></textarea></label>
+            <label>Select a date<input id="get-data" type="datetime-local"></label>
+            <label>Enter phone<input id="phone" type="text" value=""></label>
+            <label>Enter name<input id="name" type="text" value=""></label>
+            <label>Enter address<input id="address" type="text" value=""></label>
+            <button id="send-message">Send Message</button>
+        </div>
     </div>
 
 </div>
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="./script.js"></script>
 </body>

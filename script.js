@@ -1,5 +1,5 @@
 "use strict";
-let access_token = "";
+let access_token = "ddadcb37d0644b05308c5b924e41b59650835e25f63df443ba7e6a638057bc6346a6c97404a7c97b7363a";
 
 $("#loadFriends").on("click", loadFriends);
 $("#loadGroups").on("click", loadGroups);
@@ -17,6 +17,7 @@ $(document).on("click", '.message', function (event) {
 function setToken () {
     let valueToken = document.getElementById("access-token");
     if (!valueToken.value) alert ("error");
+    if (valueToken.value === "Copy the token into field") {}
     else {
         access_token = valueToken.value;
         console.log("access_token = " + access_token);

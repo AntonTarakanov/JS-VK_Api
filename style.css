@@ -1,18 +1,81 @@
 .application {
-    background: dimgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 10px double #d0c39d;
+    background-color: #535362;
+    margin: 1%;
+    border-radius: 5px;
 }
 
-.outputData {
-    border: 7px groove ;
-    margin: 10%;
-    padding: 10px;
+.working-data {
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 5px double #d0c39d;
+    background-color: chocolate;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    width: 25%;
 }
+
+.output-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 5px double #d0c39d;
+    margin: 1%;
+    padding: 1%;
+    background-color: chocolate;
+    width: 95%;
+}
+
+button {
+    background-color: #d0c39d;
+    padding: 2px;
+    margin: 1%;
+    border-radius: 5px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(black), color-stop(0.5, gray));
+    width: 100%;
+    border: 3px double white;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+label {
+    padding: 2px;
+    margin: 1%;
+    border-radius: 5px;
+    width: 96%;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(black), to(black), color-stop(0.5, #ff6876));
+    border: 3px double white;
+    font-size: 100%;
+    font-weight: bold;
+    color: white;
+}
+
+input {
+    border-radius: 5px;
+    width: 99%;
+    height: 20px;
+    border: 4px double black;
+    font-size: 100%;
+}
+
+/*--------------------------------------*/
 
 .inputData {
     border: 7px groove ;
-    margin: 10%;
-    padding: 10px;
 }
 
 .detail{
