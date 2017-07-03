@@ -1,5 +1,5 @@
 "use strict";
-let access_token = "4c1d90f91eff3f1d623f8c3f81d65cd06abb079fe20e7153b314df88106d44b2090b6291f8826ef1073b9";
+let access_token = "";
 
 $("#loadFriends").on("click", loadFriends);
 $("#loadGroups").on("click", loadGroups);
