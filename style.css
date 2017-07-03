@@ -26,7 +26,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
     border: 5px double #d0c39d;
     margin: 1%;
     padding: 1%;
@@ -74,29 +74,30 @@ input {
 
 /*--------------------------------------*/
 
-.inputData {
-    border: 7px groove ;
-}
-
 .detail{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    border: 10px double black;
+    margin: 50px;
+    padding: 10px;
 }
 
 .detail img {
     border-radius: 50%;
     width: 400px;
     heigth: 400px;
+    border: 10px double black;
 }
 
 #firstPage ul {
     list-style: none;
+
 }
 
 #firstPage li {
     margin-bottom: 15px;
+    border: 10px double black;
 }
 
 #firstPage a {

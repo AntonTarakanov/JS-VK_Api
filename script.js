@@ -1,5 +1,5 @@
 "use strict";
-let access_token = "ddadcb37d0644b05308c5b924e41b59650835e25f63df443ba7e6a638057bc6346a6c97404a7c97b7363a";
+let access_token = "4c1d90f91eff3f1d623f8c3f81d65cd06abb079fe20e7153b314df88106d44b2090b6291f8826ef1073b9";
 
 $("#loadFriends").on("click", loadFriends);
 $("#loadGroups").on("click", loadGroups);
@@ -98,7 +98,7 @@ function loadGroups () {
 }
 
 function showRequest (data){
-    let qwe = '<p>starting</p>';
+    let qwe = '';
 
     for (let i=0; i < data.length; i++) {
         qwe += '<li>'+
